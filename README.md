@@ -1,13 +1,13 @@
 # 地图审查与角色控制
 
-提供当前地图配置检查、八角色单人审查、角色控制与裁判/说书人入口。依赖对应 Mega Walls Cinematic 和 Tabletop。
+检查地图配置，用八个测试角色进行单人审查，并在角色、裁判和说书人之间切换。
 
-分类：地图工具。原本地版本 `1.0.3+mc1.21.1`，运行目标 Minecraft **1.21.1 / Fabric / Java 21**。Mod ID：`mapreview`。
+Minecraft **1.21.1 / Fabric / Java 21**。源码版本 `1.0.3+mc1.21.1`，Mod ID：`mapreview`。
 
-本次公开整理仅完成源码筛选、相对依赖配置、中文文档和静态校验；未重新构建、启动 Minecraft 或验证多人玩法，历史本机测试不等于本副本通过验证。
+输入 `/review` 打开面板，`/review on` 开始单人审查，`/review off` 结束。先结束正在进行的比赛和桌游；联机服务器上需要管理员权限。
 
-- [构建与限制](BUILDING.md)
-- [安装与使用](INSTALLATION.md)
-- [第三方来源和许可范围](THIRD_PARTY_NOTICES.md)
+依赖对应版本的 Mega Walls 和 Tabletop，具体版本见 [安装说明](INSTALLATION.md)。客户端和服务器都要安装。仓库没有地图或存档，建议在世界副本中使用。
 
-许可：GPL-3.0-only（原创代码；第三方例外见说明）。已有作者、来源和逐文件许可保留；不以仓库总许可覆盖第三方素材。
+[构建](BUILDING.md) · [安装](INSTALLATION.md) · [来源与许可](THIRD_PARTY_NOTICES.md)
+
+代码采用 GPL-3.0-only。外部依赖保留各自的许可。整理时未重新编译或进游戏测试。
