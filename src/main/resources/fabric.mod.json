@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "mapreview",
+  "version": "${version}",
+  "name": "地图审查 · 八角色与裁判",
+  "description": "当前地图配置检查、八角色单人审查、角色控制与裁判/说书人入口。",
+  "environment": "*",
+  "license": "GPL-3.0-only",
+  "entrypoints": {
+    "main": [
+      "local.mapreview.MapReviewMod"
+    ],
+    "client": [
+      "local.mapreview.MapReviewClient"
+    ]
+  },
+  "mixins": [
+    "mapreview.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabricloader": ">=0.16.10",
+    "fabric-api": "*",
+    "megawalls": [
+      "1.18.37-arena-interactions-mc1.21.1",
+      "1.18.38-tnt-floor-mc1.21.1"
+    ],
+    "tabletop": [
+      "0.5.6+mc1.21.1",
+      "0.5.7+mc1.21.1",
+      "0.5.8+mc1.21.1"
+    ]
+  }
+}

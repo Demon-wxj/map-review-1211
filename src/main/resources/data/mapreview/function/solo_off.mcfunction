@@ -1,0 +1,1 @@
+mapreview solo_off

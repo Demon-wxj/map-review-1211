@@ -1,0 +1,5 @@
+{
+  "required": true, "package": "local.mapreview.mixin", "compatibilityLevel": "JAVA_21",
+  "mixins": ["PlayerManagerAccessor", "ServerPlayNetworkHandlerAccessor", "ServerChunkLoadingManagerAccessor", "EntityTrackerInvoker", "ReviewActorSaveMixin", "ReviewDisconnectMixin", "ReviewEnrollmentMixin", "ReviewBedEnrollmentMixin", "ReviewWallEnrollmentMixin", "ReviewMWDataAccessor", "ReviewClassSkinsAccessor", "TabletopAdmissionMixin", "TabletopViewMixin"],
+  "client": ["ReviewHudMixin", "ReviewClientCacheAccessor", "ReviewLocalPlayerMixin", "ReviewPanelClickMixin", "ReviewClientDisconnectMixin", "ReviewClientNetworkDisconnectMixin"], "injectors": {"defaultRequire": 1}
+}
